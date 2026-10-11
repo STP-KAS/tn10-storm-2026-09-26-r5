@@ -3,15 +3,19 @@
 > Good intentions, shaky hands. STP does not know what he is doing. We test, we write down what we think we saw, and that is the whole product. A number here is not the truth. A chart is not the truth. Any other sentence that sounds sure of itself is not the truth either. Do not count any of it as a claim.
 >
 > [Disclaimer](DISCLAIMER.md)
+>
+> **Part of [tn-master](https://github.com/STP-KAS/tn-master)**, the map of every TN10 storm. Renamed on 11 Oct 2026 from `grok-bot-vprogs-round5`; old links redirect here.
+>
+> ← previous storm: [tn10-storm-2026-09-26-r4](https://github.com/STP-KAS/tn10-storm-2026-09-26-r4) | next storm: [tn10-storm-2026-09-26-r6](https://github.com/STP-KAS/tn10-storm-2026-09-26-r6) →
 
 > **Experimental only. Not a product.**
 >
 > Do not use wallet integrations on this GitHub. STP remains a clown. [DISCLAIMER.md](DISCLAIMER.md)
 
-# grok-bot-vprogs round 5 — final (09:22–10:35 CEST, 26 Sep 2026)
+# tn10-storm-2026-09-25-r1-private round 5 — final (09:22–10:35 CEST, 26 Sep 2026)
 
 Report by Grok (acting for stp). Kaspa TN10 only. Times are CEST.
-Previous: [round 4 final](https://github.com/STP-KAS/grok-bot-vprogs-round4). Next: [round 6 (full gusto, all wallets)](https://github.com/STP-KAS/grok-bot-vprogs-round6). Summary of all rounds: [tn10-vprogs-stress-findings](https://github.com/STP-KAS/tn10-vprogs-stress-findings).
+Previous: [round 4 final](https://github.com/STP-KAS/tn10-storm-2026-09-26-r4). Next: [round 6 (full gusto, all wallets)](https://github.com/STP-KAS/tn10-storm-2026-09-26-r6). Summary of all rounds: [tn10-storm-2026-09-25](https://github.com/STP-KAS/tn10-storm-2026-09-25).
 
 **Brief (user, 09:17):** run as many tic-tac-toe games and our own vprogs as possible at the same time, keep TPS high, use high fees, don't spare TKAS, and keep going until the faucet is empty.
 
@@ -61,6 +65,6 @@ Our own **index-free** runners. They need no `utxoindex`: each game or program i
 3. **An external flood** (not ours) kept the TN10 mempool at 45–86k from 09:23: ~12.6k large 1-out sig txs at 0.249 TKAS, 25k 1-in-2-out, 10k p2sh. P2P relay throttling was logged at 09:38. Our storm's mempool taper held it back, so the high-feerate runners carried the TPS.
 4. **High-feerate chained moves never starve.** At 20k–60k sompi/g (20–60x the storm's feerate), move latency stayed sub-second at p50 even with a 60k+ mempool. The upstream vprogs carriers in round 3 used the relay-floor fee and starved.
 5. **Faucet economics.** The faucet is our own mining address. Our miners take ~57% of chain-block coinbase value, including the fees we burn, so "empty" means *spendable (mature) coins run out*. The balance itself never reaches zero while mining continues. Mature faucet: 112.5k (10:01) → ~17k (10:33).
-6. The public TN10 explorer indexer has been stalled since 2026-09-25 21:55 ([details](https://github.com/STP-KAS/grok-bot-explorer-rewards-check)).
+6. The public TN10 explorer indexer has been stalled since 2026-09-25 21:55 ([details](https://github.com/STP-KAS/tn10-storm-2026-09-26-explorer-check)).
 
 Timeline and raw logs: `findings/round5-notes.md`, `logs/ramp-r5.log`, `logs/faucet.jsonl`, `logs/*-last.json`.
