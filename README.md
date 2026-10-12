@@ -1,6 +1,6 @@
 > **Experimental. We are just trying this.**
 >
-> Good intentions, shaky hands. STP does not know what he is doing. We test, we write down what we think we saw, and that is the whole product. A number here is not the truth. A chart is not the truth. Any other sentence that sounds sure of itself is not the truth either. Do not count any of it as a claim.
+> We test, we write down what we think we saw, and that is the whole product. A number here is not the truth. A chart is not the truth. Any other sentence that sounds sure of itself is not the truth either. Do not count any of it as a claim.
 >
 > [Disclaimer](DISCLAIMER.md)
 >
@@ -10,7 +10,7 @@
 
 > **Experimental only. Not a product.**
 >
-> Do not use wallet integrations on this GitHub. STP remains a clown. [DISCLAIMER.md](DISCLAIMER.md)
+> Do not use wallet integrations on this GitHub. [DISCLAIMER.md](DISCLAIMER.md)
 
 # tn10-storm-2026-09-25-r1-private round 5 — final (09:22–10:35 CEST, 26 Sep 2026)
 
